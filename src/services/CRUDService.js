@@ -92,7 +92,7 @@ let updateUserData = (data) => {
 
             })
         } catch (e) {
-
+            reject(e)
         }
     })
 }
